@@ -12,33 +12,42 @@ $this->title = 'My Yii Application';
             <div class="col-xl-9">
                 <div class="headerBlock__slider headerBlock__slider--js swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="headerBlock__slide swiper-slide"> <a class="headerBlock__img-wrap" href="/#">
+                        <div class="headerBlock__slide swiper-slide"><a class="headerBlock__img-wrap" href="/#">
                                 <!-- picture-->
                                 <picture>
-                                    <source type="image/webp" srcset="/img/@2x/webp/main-banner.webp" media="(min-width:576px)"/>
+                                    <source type="image/webp" srcset="/img/@2x/webp/main-banner.webp"
+                                            media="(min-width:576px)"/>
                                     <source type="image/webp" srcset="/img/@1x/webp/main-banner.webp"/>
-                                    <source type="image/png" srcset="/img/@2x/main-banner.png" media="(min-width:576px)"/>
-                                    <source type="image/png" srcset="/img/@1x/main-banner.png"/><img src="/img/@2x/main-banner.png" alt="" loading="lazy"/>
+                                    <source type="image/png" srcset="/img/@2x/main-banner.png"
+                                            media="(min-width:576px)"/>
+                                    <source type="image/png" srcset="/img/@1x/main-banner.png"/>
+                                    <img src="/img/@2x/main-banner.png" alt="" loading="lazy"/>
                                 </picture>
                                 <!-- /picture--></a>
                         </div>
-                        <div class="headerBlock__slide swiper-slide"> <a class="headerBlock__img-wrap" href="/#">
+                        <div class="headerBlock__slide swiper-slide"><a class="headerBlock__img-wrap" href="/#">
                                 <!-- picture-->
                                 <picture>
-                                    <source type="image/webp" srcset="/img/@2x/webp/main-banner.webp" media="(min-width:576px)"/>
+                                    <source type="image/webp" srcset="/img/@2x/webp/main-banner.webp"
+                                            media="(min-width:576px)"/>
                                     <source type="image/webp" srcset="/img/@1x/webp/main-banner.webp"/>
-                                    <source type="image/png" srcset="/img/@2x/main-banner.png" media="(min-width:576px)"/>
-                                    <source type="image/png" srcset="/img/@1x/main-banner.png"/><img src="/img/@2x/main-banner.png" alt="" loading="lazy"/>
+                                    <source type="image/png" srcset="/img/@2x/main-banner.png"
+                                            media="(min-width:576px)"/>
+                                    <source type="image/png" srcset="/img/@1x/main-banner.png"/>
+                                    <img src="/img/@2x/main-banner.png" alt="" loading="lazy"/>
                                 </picture>
                                 <!-- /picture--></a>
                         </div>
-                        <div class="headerBlock__slide swiper-slide"> <a class="headerBlock__img-wrap" href="/#">
+                        <div class="headerBlock__slide swiper-slide"><a class="headerBlock__img-wrap" href="/#">
                                 <!-- picture-->
                                 <picture>
-                                    <source type="image/webp" srcset="/img/@2x/webp/main-banner.webp" media="(min-width:576px)"/>
+                                    <source type="image/webp" srcset="/img/@2x/webp/main-banner.webp"
+                                            media="(min-width:576px)"/>
                                     <source type="image/webp" srcset="/img/@1x/webp/main-banner.webp"/>
-                                    <source type="image/png" srcset="/img/@2x/main-banner.png" media="(min-width:576px)"/>
-                                    <source type="image/png" srcset="/img/@1x/main-banner.png"/><img src="/img/@2x/main-banner.png" alt="" loading="lazy"/>
+                                    <source type="image/png" srcset="/img/@2x/main-banner.png"
+                                            media="(min-width:576px)"/>
+                                    <source type="image/png" srcset="/img/@1x/main-banner.png"/>
+                                    <img src="/img/@2x/main-banner.png" alt="" loading="lazy"/>
                                 </picture>
                                 <!-- /picture--></a>
                         </div>
@@ -51,7 +60,8 @@ $this->title = 'My Yii Application';
                     <div class="col-xl-12 col-sm-auto"><a class="headerBlock__img-wrap" href="/#">
                             <!-- picture-->
                             <picture>
-                                <source type="image/webp" srcset="/img/@2x/webp/ban-1.webp"/><img src="/img/@2x/ban-1.png" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="/img/@2x/webp/ban-1.webp"/>
+                                <img src="/img/@2x/ban-1.png" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                     </div>
@@ -59,7 +69,8 @@ $this->title = 'My Yii Application';
                         <div class="headerBlock__img-wrap headerBlock__img-wrap--shipping">
                             <!-- picture-->
                             <picture>
-                                <source type="image/webp" srcset="/img/@2x/webp/ban-2.webp"/><img src="/img/@2x/ban-2.png" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="/img/@2x/webp/ban-2.webp"/>
+                                <img src="/img/@2x/ban-2.png" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture-->
                         </div>
@@ -92,19 +103,22 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/><img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Burger мистер Трюфель</a>
                             <div class="prod-item__small">Вес: 485 г.
                             </div>
-                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                                маринованные...</p>
                             <div class="prod-item__footer row">
                                 <div class="col">
                                     <div class="prod-item__price">150 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +128,8 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/><img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Комбо Хот-Дог</a>
@@ -126,7 +141,8 @@ $this->title = 'My Yii Application';
                                     <div class="prod-item__price">450 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +152,8 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/><img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Нагетсы</a>
@@ -148,7 +165,8 @@ $this->title = 'My Yii Application';
                                     <div class="prod-item__price">1 150 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -158,19 +176,22 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/><img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Фирменный Las Burger</a>
                             <div class="prod-item__small">Вес: 485 г.
                             </div>
-                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                                маринованные...</p>
                             <div class="prod-item__footer row">
                                 <div class="col">
                                     <div class="prod-item__price">2 150 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -180,19 +201,22 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/><img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Burger мистер Трюфель</a>
                             <div class="prod-item__small">Вес: 485 г.
                             </div>
-                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                                маринованные...</p>
                             <div class="prod-item__footer row">
                                 <div class="col">
                                     <div class="prod-item__price">150 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +226,8 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/><img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Комбо Хот-Дог</a>
@@ -214,7 +239,8 @@ $this->title = 'My Yii Application';
                                     <div class="prod-item__price">450 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +250,8 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/><img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Нагетсы</a>
@@ -236,7 +263,8 @@ $this->title = 'My Yii Application';
                                     <div class="prod-item__price">1 150 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -246,19 +274,22 @@ $this->title = 'My Yii Application';
                     <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                             <!-- picture-->
                             <picture class="picture-bg">
-                                <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/><img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
+                                <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
                             </picture>
                             <!-- /picture--></a>
                         <div class="prod-item__caption"><a class="prod-item__title" href="#">Фирменный Las Burger</a>
                             <div class="prod-item__small">Вес: 485 г.
                             </div>
-                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                                маринованные...</p>
                             <div class="prod-item__footer row">
                                 <div class="col">
                                     <div class="prod-item__price">2 150 <span> ₽</span>
                                     </div>
                                 </div>
-                                <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                                <div class="col-auto"><a class="prod-item__btn" href="#"><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
                                 </div>
                             </div>
                         </div>
@@ -298,14 +329,16 @@ $this->title = 'My Yii Application';
                 <div class="tabs__wrap">
                     <div class="tabs__content active">
                         <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu11" value="Все" checked="checked"/>
+                            <input class="radio-btn" type="radio" name="menu" id="menu11" value="Все"
+                                   checked="checked"/>
                             <label for="menu11">Все</label>
                         </div>
-                        <?php foreach($categories as $category): ?>
-                        <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu<?=$category['id'] ?>" value="Кофе"/>
-                            <label for="menu21"><?=$category['category_name'] ?></label>
-                        </div>
+                        <?php foreach ($categories as $category): ?>
+                            <div class="radio">
+                                <input class="radio-btn" type="radio" name="menu" id="menu<?= $category['id'].$category['id_parent'] ?>"
+                                       value="Кофе"/>
+                                <label for="menu21"><?= $category['category_name'] ?></label>
+                            </div>
                         <? endforeach; ?>
                         <div class="radio">
                             <input class="radio-btn" type="radio" name="menu" id="menu31" value="Травяные чаи"/>
@@ -334,7 +367,8 @@ $this->title = 'My Yii Application';
                     </div>
                     <div class="tabs__content">
                         <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu12" value="Все" checked="checked"/>
+                            <input class="radio-btn" type="radio" name="menu" id="menu12" value="Все"
+                                   checked="checked"/>
                             <label for="menu12">Все</label>
                         </div>
                         <div class="radio">
@@ -368,7 +402,8 @@ $this->title = 'My Yii Application';
                     </div>
                     <div class="tabs__content">
                         <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu13" value="Все" checked="checked"/>
+                            <input class="radio-btn" type="radio" name="menu" id="menu13" value="Все"
+                                   checked="checked"/>
                             <label for="menu13">Все</label>
                         </div>
                         <div class="radio">
@@ -402,7 +437,8 @@ $this->title = 'My Yii Application';
                     </div>
                     <div class="tabs__content">
                         <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu14" value="Все" checked="checked"/>
+                            <input class="radio-btn" type="radio" name="menu" id="menu14" value="Все"
+                                   checked="checked"/>
                             <label for="menu14">Все</label>
                         </div>
                         <div class="radio">
@@ -436,7 +472,8 @@ $this->title = 'My Yii Application';
                     </div>
                     <div class="tabs__content">
                         <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu15" value="Все" checked="checked"/>
+                            <input class="radio-btn" type="radio" name="menu" id="menu15" value="Все"
+                                   checked="checked"/>
                             <label for="menu15">Все</label>
                         </div>
                         <div class="radio">
@@ -470,7 +507,8 @@ $this->title = 'My Yii Application';
                     </div>
                     <div class="tabs__content">
                         <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu16" value="Все" checked="checked"/>
+                            <input class="radio-btn" type="radio" name="menu" id="menu16" value="Все"
+                                   checked="checked"/>
                             <label for="menu16">Все</label>
                         </div>
                         <div class="radio">
@@ -504,7 +542,8 @@ $this->title = 'My Yii Application';
                     </div>
                     <div class="tabs__content">
                         <div class="radio">
-                            <input class="radio-btn" type="radio" name="menu" id="menu17" value="Все" checked="checked"/>
+                            <input class="radio-btn" type="radio" name="menu" id="menu17" value="Все"
+                                   checked="checked"/>
                             <label for="menu17">Все</label>
                         </div>
                         <div class="radio">
@@ -540,35 +579,40 @@ $this->title = 'My Yii Application';
             </div>
         </div>
         <div class="row">
-            <?php foreach($dataProvider->getModels() as $product): ?>
-            <div class="sCatalog__col col-xl-3 col-lg-4 col-sm-6">
-                <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="<?= \yii\helpers\Url::to(['site/product', 'id' => $product['id'] ]); ?>">
-                        <!-- picture-->
-                        <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/><img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
-                        </picture>
-                        <!-- /picture--></a>
-                    <div class="prod-item__caption"><a class="prod-item__title" href="#"><?=$product["name"] ?></a>
-                        <div class="prod-item__small">Вес: 485 г.
-                        </div>
-                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
-                        <div class="prod-item__footer row">
-                            <div class="col">
-                                <div class="prod-item__price"><?= $product["price"] ?> <span> ₽</span>
-                                </div>
+            <?php foreach ($dataProvider->getModels() as $product): ?>
+                <div class="sCatalog__col col-xl-3 col-lg-4 col-sm-6">
+                    <div class="prod-item"><a class="prod-item__img-wrap bg-wrap"
+                                              href="<?= \yii\helpers\Url::to(['site/product', 'id' => $product['id']]); ?>">
+                            <!-- picture-->
+                            <picture class="picture-bg">
+                                <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/>
+                                <img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
+                            </picture>
+                            <!-- /picture--></a>
+                        <div class="prod-item__caption"><a class="prod-item__title" href="#"><?= $product["name"] ?></a>
+                            <div class="prod-item__small">Вес: 485 г.
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href=""><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                                маринованные...</p>
+                            <div class="prod-item__footer row">
+                                <div class="col">
+                                    <div class="prod-item__price"><?= $product["price"] ?> <span> ₽</span>
+                                    </div>
+                                </div>
+                                <div class="col-auto"><a class="prod-item__btn" href=""><img
+                                                src="img/svg/shopping-bag.svg" alt=""/></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <?php endforeach; ?>
             <div class="sCatalog__col col-xl-3 col-lg-4 col-sm-6">
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/><img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Комбо Хот-Дог</a>
@@ -580,7 +624,8 @@ $this->title = 'My Yii Application';
                                 <div class="prod-item__price">450 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -590,7 +635,8 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/><img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Нагетсы</a>
@@ -602,7 +648,8 @@ $this->title = 'My Yii Application';
                                 <div class="prod-item__price">1 150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -612,19 +659,22 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/><img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Фирменный Las Burger</a>
                         <div class="prod-item__small">Вес: 485 г.
                         </div>
-                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                            маринованные...</p>
                         <div class="prod-item__footer row">
                             <div class="col">
                                 <div class="prod-item__price">2 150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -634,19 +684,22 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/><img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Burger мистер Трюфель</a>
                         <div class="prod-item__small">Вес: 485 г.
                         </div>
-                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                            маринованные...</p>
                         <div class="prod-item__footer row">
                             <div class="col">
                                 <div class="prod-item__price">150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -656,7 +709,8 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/><img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Комбо Хот-Дог</a>
@@ -668,7 +722,8 @@ $this->title = 'My Yii Application';
                                 <div class="prod-item__price">450 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -678,7 +733,8 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/><img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Нагетсы</a>
@@ -690,7 +746,8 @@ $this->title = 'My Yii Application';
                                 <div class="prod-item__price">1 150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -700,19 +757,22 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/><img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Фирменный Las Burger</a>
                         <div class="prod-item__small">Вес: 485 г.
                         </div>
-                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                            маринованные...</p>
                         <div class="prod-item__footer row">
                             <div class="col">
                                 <div class="prod-item__price">2 150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -722,19 +782,22 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/><img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-1.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-1.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Burger мистер Трюфель</a>
                         <div class="prod-item__small">Вес: 485 г.
                         </div>
-                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                            маринованные...</p>
                         <div class="prod-item__footer row">
                             <div class="col">
                                 <div class="prod-item__price">150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -744,7 +807,8 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/><img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-2.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-2.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Комбо Хот-Дог</a>
@@ -756,7 +820,8 @@ $this->title = 'My Yii Application';
                                 <div class="prod-item__price">450 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -766,7 +831,8 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/><img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-3.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-3.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Нагетсы</a>
@@ -778,7 +844,8 @@ $this->title = 'My Yii Application';
                                 <div class="prod-item__price">1 150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -788,19 +855,22 @@ $this->title = 'My Yii Application';
                 <div class="prod-item"><a class="prod-item__img-wrap bg-wrap" href="#">
                         <!-- picture-->
                         <picture class="picture-bg">
-                            <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/><img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
+                            <source type="image/webp" srcset="img/@2x/webp/prod-4.webp"/>
+                            <img class="object-fit-js" src="img/@2x/prod-4.jpg" alt="" loading="lazy"/>
                         </picture>
                         <!-- /picture--></a>
                     <div class="prod-item__caption"><a class="prod-item__title" href="#">Фирменный Las Burger</a>
                         <div class="prod-item__small">Вес: 485 г.
                         </div>
-                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров, маринованные...</p>
+                        <p>Свежая булочка, мраморная говядина medium well, сыр, листья салата, ломтики помидоров,
+                            маринованные...</p>
                         <div class="prod-item__footer row">
                             <div class="col">
                                 <div class="prod-item__price">2 150 <span> ₽</span>
                                 </div>
                             </div>
-                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg" alt=""/></a>
+                            <div class="col-auto"><a class="prod-item__btn" href="#"><img src="img/svg/shopping-bag.svg"
+                                                                                          alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -815,8 +885,13 @@ $this->title = 'My Yii Application';
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h2>Самые вкусные  и сочные Бургеры</h2>
-                <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам</p>
+                <h2>Самые вкусные и сочные Бургеры</h2>
+                <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem
+                    Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а
+                    также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации
+                    "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и
+                    редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым
+                    словам</p>
             </div>
         </div>
     </div>
@@ -825,7 +900,8 @@ $this->title = 'My Yii Application';
         <source type="image/webp" srcset="img/@2x/webp/content-img.webp" media="(min-width:576px)"/>
         <source type="image/webp" srcset="img/@1x/webp/content-img.webp"/>
         <source type="image/jpg" srcset="img/@2x/content-img.jpg" media="(min-width:576px)"/>
-        <source type="image/jpg" srcset="img/@1x/content-img.jpg"/><img class="object-fit-js" src="img/@2x/content-img.jpg" alt="" loading="lazy"/>
+        <source type="image/jpg" srcset="img/@1x/content-img.jpg"/>
+        <img class="object-fit-js" src="img/@2x/content-img.jpg" alt="" loading="lazy"/>
     </picture>
     <!-- /picture-->
 </section>

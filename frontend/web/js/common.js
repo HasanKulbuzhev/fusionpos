@@ -151,7 +151,7 @@ const JSCCommon = {
 				const btn = element.target.closest("[data-tab-btn]:not(.active)");
 				if (!btn) return;
 				const data = btn.dataset.tabBtn;
-				const tabsAllBtn = this.querySelectorAll("[data-tab-btn");
+				const tabsAllBtn = this.querySelectorAll("[data-tab-btn]");
 				const content = this.querySelectorAll("[data-tab-content]");
 				tabsAllBtn.forEach(element => {
 					element.dataset.tabBtn == data ? element.classList.add('active') : element.classList.remove('active');
